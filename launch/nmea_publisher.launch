@@ -1,0 +1,6 @@
+<launch>
+    <node name="mmea_publisher" pkg="nmea_driver" type="nmea_topic_serial_reader">
+        <param name="baud" value="19200" />
+        <param name="port" value="/dev/ttyUSB1" />
+    </node>
+</launch>
